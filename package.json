@@ -1,0 +1,24 @@
+{
+  "name": "isbn-converter",
+  "version": "1.0.0",
+  "description": "This project handles ISBN conversion from ISBN 10 to ISBN 13 and from ISBN 13 to 10. It also validates if an input is an ISBN and can validate if it is a valid ISBN 10 or ISBN 13.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooosh-milllie/isbn-converter.git"
+  },
+  "keywords": [
+    "isbn",
+    "isbn-converter",
+    "is-isbn"
+  ],
+  "author": "Solve Web Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mooosh-milllie/isbn-converter/issues"
+  },
+  "homepage": "https://github.com/mooosh-milllie/isbn-converter#readme"
+}
