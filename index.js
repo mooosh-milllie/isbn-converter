@@ -112,8 +112,7 @@ class HandleISBN {
           result = isbnStringToEval + 'X';
           break;
         default:
-          const subtractFrmDivider = checkNumDivider - getCheckNum;
-          result = isbnStringToEval + subtractFrmDivider.toString()
+          result = isbnStringToEval + getCheckNum.toString();
           break;
       }
       return result
