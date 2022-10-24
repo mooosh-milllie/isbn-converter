@@ -127,7 +127,6 @@ class HandleISBN {
 
     if(this.isISBN10(isbnStr)){
       let isbnStringToEval = oldIsbn13Prefix + isbnStr.slice(0, 9);
-      
 
       const getCheckNum = this.#calculateISBN13CheckNum(isbnStringToEval);
       let result = isbnStringToEval + getCheckNum.toString();
