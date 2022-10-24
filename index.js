@@ -78,7 +78,6 @@ class HandleISBN {
     // Regex matches Aa-Zz except Xx, so when it is false it means the ISBN includes Xx
     // then a check is done to calculate the check sum to see if it equals 10
     const getCheckSum = this.#calculateISBN10CheckNum(removedCheckNum);
-    console.log(getCheckSum);
     if (re.test(isbnStr) === false && isNaN(Number(isbnStr))) {
       if (getCheckSum === 10) {
         return true;
