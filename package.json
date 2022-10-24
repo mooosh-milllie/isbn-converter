@@ -1,6 +1,6 @@
 {
   "name": "isbn-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This project handles ISBN conversion from ISBN 10 to ISBN 13 and from ISBN 13 to 10. It also validates if an input is an ISBN and can validate if it is a valid ISBN 10 or ISBN 13.",
   "main": "index.js",
   "scripts": {
